@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhcGVyJTIwbWFwfGVufDB8fDB8fHww&w=1000&q=80");
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  height: 100vh;
+  /* You can also set other properties like background-position, background-color, etc. */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-image-header {
+  background-image: url("https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhcGVyJTIwbWFwfGVufDB8fDB8fHww&w=1000&q=80");
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  height: 40vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.background-image div {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.background-image input {
+  width: 80%;
+  padding: 4px 4px;
+}
+.RegistrationForm input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.RegistrationNotice p {
+  margin: 0;
+  font-size: 12px;
+}
+.RegistrationNotice li {
+  margin: 0;
+  font-size: 12px;
+}
+.menu :hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MyAccountButton{
+    height: 6vh;
+    width: 12vw;
+    background-color: rgb(242,199,68);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.MyAccountButton:hover{
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+    font-weight: 500;
+}
+.background-image-home{
+    background-image: url("https://media.cntraveler.com/photos/5a7741d04332805bf105f668/16:9/w_2560,c_limit/Morgan-Library-and-Museum__2018_9.-East-Room-2.jpg");
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    height: 100vh;
 }
